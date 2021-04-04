@@ -1,0 +1,21 @@
+.main-sidebar {
+    position: fixed;
+    transition: 1s;
+    left: -280px;
+    width: 280px;
+    height: 100vh;
+    background-color: rgb(155, 219, 245);
+}
+
+.main-sidebar.show-menu {
+    left: 0;
+    transition: 1s;
+}
+
+.sidebar {
+    padding-top: 60px;
+    padding-left: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

@@ -1,0 +1,23 @@
+.title {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.title.-apresentation {
+    font-size: 40;
+    margin-bottom: 15px;
+    font-weight: 0;
+}
+
+.subtitle.-apresentation {
+   font-size: 35px;
+   font-family: 'Open Sans', sans-serif;
+}
