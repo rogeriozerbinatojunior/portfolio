@@ -21,3 +21,13 @@
    font-size: 35px;
    font-family: 'Open Sans', sans-serif;
 }
+
+.title.-description {
+    color: #000;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.subtitle.-description {
+    color: #000;
+}
