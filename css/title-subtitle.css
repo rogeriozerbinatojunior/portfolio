@@ -19,15 +19,17 @@
 
 .subtitle.-apresentation {
    font-size: 35px;
-   font-family: 'Open Sans', sans-serif;
+   font-family: 'Fira Code', monospace;
 }
 
 .title.-description {
     color: #000;
     text-align: center;
     padding-top: 10px;
+    color: #fff;
 }
 
 .subtitle.-description {
     color: #000;
+    color: #fff;
 }
