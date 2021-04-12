@@ -5,11 +5,12 @@
     width: 280px;
     height: 100vh;
     background-color: black;
+    z-index: 9;
 }
 
 .main-sidebar.show-menu {
     left: 0;
-    transition: 1s;
+    transition: 1.1s ease-out;
 }
 
 .sidebar {

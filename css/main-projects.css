@@ -1,0 +1,26 @@
+.section.-projects {
+    padding-top: 30px;
+}
+
+.projects-navigation {
+    padding-top: 140px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.link-projects img {
+    width: 300px;
+    height: 300px;
+    margin-right: 45px;
+    box-shadow: 5px 5px 0px #000;
+}
+
+.link-projects {
+    transition: 0.15s transform linear;
+}
+
+.link-projects:hover {
+    transform: scale(1.1);
+    transition: 0.15s transform ease-out;
+}

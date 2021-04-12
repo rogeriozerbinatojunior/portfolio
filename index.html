@@ -19,13 +19,15 @@
     <link rel="stylesheet" href="css/main-carousel.css">
     <link rel="stylesheet" href="css/node-card.css">
     <link rel="stylesheet" href="css/button-arrow.css">
+    <link rel="stylesheet" href="css/main-biography.css">
+    <link rel="stylesheet" href="css/main-projects.css">
     <title>Portfólio</title>
 </head>
 <body>
     <section class="main-sidebar">
         <header class="sidebar">
             <h1 class="title">Meu Portfólio</h1>
-            <ul>
+            <ul class="menu-navigation">
                 <a href="#">
                     <li class="subtitle">Sobre mim</li>
                 </a>
@@ -64,48 +66,31 @@
         </div>
     </section>
     <section class="section -description">
-        <h1 class="title -description">Sobre mim</h1>
-            <div class="wrapper-description">
-                <figure>
-                    <img src="" alt="image rogerio">
+        <div class="wrapper-description">
+            <h1 class="title -description">Sobre mim</h1>
+            <section class="main-biography">
+                <figure class="figure-biography">
+                    <img class="img-biography" src="img/img-rogerio.jpg" alt="Foto De Rogério Zerbinato">
                 </figure>
-                <p class="subtitle -description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, amet voluptatem eveniet sequi at sunt, voluptatibus voluptate praesentium in blanditiis repellat maxime delectus perferendis expedita nobis quaerat aperiam maiores fugiat?</p>
-            </div>
-        <section class="main-carousel">
-            <button class="button-arrow -left"></button>
-            <div class="wrapper-card">
-                <figure class="node-card">
-                    <figcaption class="card-figcaption">2021</figcaption>
-                    <img src="img/logo.png" alt="Marcobrunodev">
-                </figure>
-                <figure class="node-card">
-                    <figcaption class="card-figcaption">2021</figcaption>
-                    <img src="img/logo.png" alt="Marcobrunodev">
-                </figure>
-                <figure class="node-card">
-                    <figcaption class="card-figcaption">2021</figcaption>
-                    <img src="img/logo.png" alt="Marcobrunodev">
-                </figure>
-                <figure class="node-card">
-                    <figcaption class="card-figcaption">2021</figcaption>
-                    <img src="img/logo.png" alt="Marcobrunodev">
-                </figure>
-                <figure class="node-card">
-                    <figcaption class="card-figcaption">2021</figcaption>
-                    <img src="img/logo.png" alt="Marcobrunodev">
-                </figure>
-                <figure class="node-card">
-                    <figcaption class="card-figcaption">2021</figcaption>
-                    <img src="img/logo.png" alt="Marcobrunodev">
-                </figure>
-                <figure class="node-card">
-                    <figcaption class="card-figcaption">2021</figcaption>
-                    <img src="img/logo.png" alt="Marcobrunodev">
-                </figure>
-            </div>
-            <button class="button-arrow -right"></button>
+                <p class="subtitle -description">Rogério Zerbinato Junior, atualmente um estudante do ensino médio, que está aprendendo programação por conta própria. </p>
+            </section>
+            <section class="main-carousel">
+                <button class="btn-arrow -left"><span class="content">Voltar</span></button>
+                
+                <button class="btn-arrow -right"><span class="content">Avançar</span></button>
+            </section>
+        </div>
+    </section>
+    <section class="section -projects">
+        <h1 class="title -description">Projetos</h1>
+        <section class="projects-navigation">
+            <a class="link-projects" href="#"><img src="img/logo.png" alt=""></a>
+            <a class="link-projects" href="#"><img src="img/logo.png" alt=""></a>
+            <a class="link-projects" href="#"><img src="img/logo.png" alt=""></a>
+            <a class="link-projects" href="#"><img src="img/logo.png" alt=""></a>    
         </section>
     </section>
     <script src="js/side-bar.js"></script>
+    <script src="js/main-carousel.js"></script>
 </body>
-</html>
+</html> 
