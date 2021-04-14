@@ -1,6 +1,6 @@
 .main-carousel {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 50px;
     position: relative;
     padding-left: 100px;
@@ -12,7 +12,7 @@
     position: absolute;
     height: 4px;
     top: 33px;
-    width: calc(100% - 100px) ;
+    width: calc(100% - 160px) ;
     display: block;
     background-color: #000;
 }
@@ -25,19 +25,32 @@
     display: block;
     height: 0px;
     border: 2.2px dashed #000;
-    width: calc(100% - 40px);
+    width: 100%;
 }
 
 .main-carousel .btn-arrow {
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
     transform: translateY(-135%);
 }
 
 .main-carousel .btn-arrow.-left {
-    left: 45px;
+    left: 15px;
 }
 
 .main-carousel .btn-arrow.-right {
-    right: 45px;
+    right: 15px;
+}
+
+.main-carousel .items-node-card {
+    width: 100%;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.main-carousel .elements {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    transition: transform 100ms ease-out;
 }
