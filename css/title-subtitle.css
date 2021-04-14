@@ -30,3 +30,10 @@
 .subtitle.-description {
     color: #000;
 }
+
+.title.-figcap {
+    color: #000;
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 40px;
+}

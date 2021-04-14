@@ -1,0 +1,25 @@
+.node-card {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-right: 40px;
+}
+
+.node-card::before {
+    content: '';
+    height: 0px;
+    width: 40px;
+    box-sizing: border-box;
+    border-top: 3.5px dashed #000;
+    transform: rotate(90deg);
+    position: absolute;
+    bottom: 185px;
+}
+
+.logo {
+    width: 160px;
+    height: 160px;
+    border: 5px solid #000;
+}
+

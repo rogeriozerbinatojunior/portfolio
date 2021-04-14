@@ -9,18 +9,25 @@
     justify-content: center;
 }
 
-.link-projects img {
+.wrapper-projects img {
     width: 300px;
     height: 300px;
     margin-right: 45px;
     box-shadow: 5px 5px 0px #000;
 }
 
-.link-projects {
+.wrapper-projects {
     transition: 0.15s transform linear;
 }
 
-.link-projects:hover {
+.wrapper-projects:hover {
     transform: scale(1.1);
     transition: 0.15s transform ease-out;
+}
+
+.caption-projects {
+    font-family: 'Fira Code', monospace;
+    text-align: center;
+    font-size: 25px;
+    margin-right: 30px;
 }
