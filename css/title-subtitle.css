@@ -3,6 +3,8 @@
     font-size: 35px;
     font-weight: 200;
     margin-bottom: 20px;
+    text-align: center;
+    padding-top: 20px;
 }
 
 .subtitle {
@@ -25,6 +27,7 @@
 .title.-description {
     color: #000;
     text-align: center;
+    padding-top: 0px;
 }
 
 .subtitle.-description {
@@ -36,4 +39,13 @@
     font-weight: 500;
     font-size: 28px;
     margin-bottom: 40px;
+}
+
+.title.-skills {
+    color: #000;
+}
+
+.title.-contact {
+    margin-bottom: 20px;
+    padding-top: 20px;
 }

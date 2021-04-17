@@ -11,7 +11,7 @@
     content: '';
     position: absolute;
     height: 4px;
-    top: 33px;
+    top: 52px;
     width: calc(100% - 160px) ;
     display: block;
     background-color: #000;
@@ -21,7 +21,7 @@
     content: '';
     position: absolute;
     left: 17px;
-    top: 33px;
+    top: 52px;
     display: block;
     height: 0px;
     border: 2.2px dashed #000;

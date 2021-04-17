@@ -18,11 +18,3 @@ a {
     background-color: rgb(221, 221, 221);
     border-bottom: 8px solid rgb(42, 42, 42);
 }
-
-button {
-    cursor: pointer;
-}
-
-button:hover {
-    transform: scale(1.05);
-}

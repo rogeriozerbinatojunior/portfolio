@@ -1,0 +1,20 @@
+.wrapper-form {
+    padding-left:  100px;
+    padding-right:  100px;
+}
+
+.main-form {  
+    padding-top: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 610px;
+    text-align: center;
+    border: 3px solid #3A4042;
+}
+
+.main-label {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Fira Code', monospace;
+}

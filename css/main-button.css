@@ -1,0 +1,22 @@
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.main-button.-submit {
+    height: 54px;
+    display: inline-flex;
+    font-size: 20px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    background-color: #272727;
+    border: none;
+}
+
+.main-button.-submit:hover {
+    transform: scale(1.01);
+} 
