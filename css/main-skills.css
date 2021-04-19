@@ -1,0 +1,34 @@
+.wrapper-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-tec {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.right {
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.img-skills {
+    width: 90px;
+    height: 90px;
+}
+
+.progress-skills {
+    border: 4px solid #000;
+    height: 25px;
+}
+
+.progress-skills::-webkit-progress-bar {
+    background-color: #fff;
+}
+
+.progress-skills::-webkit-progress-value{
+    background-color: #383838;
+}
