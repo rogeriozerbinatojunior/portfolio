@@ -1,0 +1,8 @@
+.menu-navigation a {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-navigation a:hover  {
+    color: rgb(110, 110, 110);
+}
