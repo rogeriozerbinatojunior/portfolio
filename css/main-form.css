@@ -18,3 +18,10 @@
     font-size: 20px;
     font-family: 'Fira Code', monospace;
 }
+
+@media (max-width: 600px) {
+    .wrapper-form {
+    padding-left:  50px;
+    padding-right:  50px;
+    }
+}
